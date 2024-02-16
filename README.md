@@ -13,6 +13,8 @@ What this will do:
 
 -Change movement variables to a more CS:Source type feel.
 
+-Installs CounterStrikeSharp and Metamod
+
 -Put a easy-to-configure server.cfg. All you have to do is change the rcon password, server name, and GSLT.
 
 -Make the timer run for 60 minutes before switching to a new map (meant to be used with host_workshop_collection)
