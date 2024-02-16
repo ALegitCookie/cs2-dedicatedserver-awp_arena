@@ -58,7 +58,7 @@ This will allow us to install the CS2 server on WindowsGSM
 
 9. Open WindowsGSM and press the puzzle icon in the bottom left. You should see the CS2 Plugin listed. If not, try pressing "Reload Plugins".
     
-10. Now it's time to install the CS2 Server. Go to Servers -> Install Gameserver. Then for the "Game Server" dropdown, select "Counter Strike 2 Dedicated Server". Also, type in a name for you to identify your server.
+10. Now it's time to install the CS2 Server. Go to Servers -> Install Gameserver. Then for the "Game Server" dropdown, select "Counter Strike 2 Dedicated Server". Also, type in a name for you to identify your server. (this will NOT change the public hostname, this name is simply just for you)
 
 ![4](https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/assets/39338269/321eb62c-98e5-48bb-9518-5916308e1023)
 
