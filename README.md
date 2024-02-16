@@ -73,14 +73,18 @@ Note: Now that the server is installed with windowsGSM, you can automate server 
 
 # How to install the AWP Arena Gamemode
 
-1. Download the .ZIP from this repo (releases link here)
+1. Download the .RAR from this repo (https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/archive/refs/heads/main.zip)
 
-2. Extract this zip file into your server (If you followed the WindowsGSM Install tutorial above, the directory will be WindowsGSM -> Servers -> 1 -> serverfiles) Extract it so that the "csgo" folder from the zip, merges with the "csgo" folder of your server. (If prompted to overwrite any files, click YES TO ALL)
+2. Extract this RAR file into your server (If you followed the WindowsGSM Install tutorial above, the directory will be WindowsGSM -> Servers -> 1 -> serverfiles)
+
+Extract it so that the "csgo" folder from the zip, merges with the "csgo" folder of your server. (If prompted to overwrite any files, click YES TO ALL)
+
 (This ZIP file will install the gamemode configs, server config, Metamod, CounterStrikeSharp, and weaponrestrict)
 
-3. Enjoy! That zip file that you just put into your server has changed the way the gamemodes work, so there will be no buy menu, and has restricted all weapons except AWP and Knife.
+4. Enjoy! That zip file that you just put into your server has changed the way the gamemodes work, so there will be no buy menu, and has restricted all weapons except AWP and Knife.
 
 # Please configure server.cfg
+
 Please open up Game->Csgo->Cfg->server.cfg with a text editor
 
 <img width="350" alt="Screenshot 2024-02-15 at 11 26 32 PM" src="https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/assets/39338269/4f761baf-b937-463d-9057-ca984f777440">
