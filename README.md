@@ -2,13 +2,20 @@
 This is a drop-in AWP Arena Gamemode setup for Counter Strike 2 Dedicated Servers
 
 WARNING: ONLY DO THIS ON A SERVER USED SPECIFICALLY FOR AWP ARENA ONLY!
-Putting these files on your server will overwrite gamemode configs, which can do unwanted things if you host multiple gamemodes on one server.
+Putting these files on an existing server will overwrite gamemode configs, which can do unwanted things if you host multiple gamemodes on one server.
 If you are using this, I recommend following the instructions and doing this on a fresh server ONLY, and understand that this server will ONLY be used for the AWP Arena gamemode.
+
+What this will do:
+-Restrict all weapons except for Awp and Knife.
+-Removes the buy menu
+-Change movement variables to a more CS:Source type feel.
+-Put a easy-to-configure server.cfg. All you have to do is change the rcon password, server name, and GSLT.
+-Make the timer run for 60 minutes before switching to a new map (meant to be used with host_workshop_collection)
 
 
 # Installation
 
-# Creating a new server (for beginners)
+# Creating a new server (for beginners) (skip over this if you know how to make a CS2 Server)
 First, We are going to make a fresh install of Counter Strike 2 Dedicated Server. If you know how to do so, go ahead and do it now.
 
 If you are a beginner who does not know how to make a CS2 server, no worries. I'm going to show you a super easy way to create and manage a CS2 server (on windows). If you are on linux, please find an installation tutorial elsewhere.
@@ -52,15 +59,28 @@ Note: (If the installation fails, go ahead and close WindowsGSM and go to the Wi
 
 12. Download the .ZIP from this repo (releases link here)
 13. Extract this zip file into your server (If you followed the WindowsGSM Install tutorial above, the directory will be WindowsGSM -> Servers -> 1 -> serverfiles) Extract it so that the "csgo" folder from the zip, merges with the "csgo" folder of your server. (If prompted to overwrite any files, click YES TO ALL)
+(This ZIP file will install the gamemode configs, server config, Metamod, CounterStrikeSharp, and weaponrestrict)
 
-14. Enjoy! That zip file that you just put into your server has changed the way the gamemodes work sp there will be no buy menu, and has restricted all weapons except AWP and Knife.
+15. Enjoy! That zip file that you just put into your server has changed the way the gamemodes work, so there will be no buy menu, and has restricted all weapons except AWP and Knife.
+
+# Please configure server.cfg (
+Please open up Game->Csgo->Cfg->server.cfg with a text editor
+<img width="350" alt="Screenshot 2024-02-15 at 11 26 32 PM" src="https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/assets/39338269/4f761baf-b937-463d-9057-ca984f777440">
+Please specify your preferred RCON Password, Hostname, and please paste your Game Server Login Token from https://steamcommunity.com/dev/managegameservers
+
 
 # How to host a workshop map group
 
-If you have a group of workshop maps that you would like to rotate on the server, go ahead and add the following line to your start.bat file, or whatever the executable is for you that launches the server and specifies the start parameters.
+If you have a group of workshop maps that you would like to rotate on the server, go ahead and add the following line to your start.bat file, or whatever the executable is for you that launches the server and specifies the start parameters:
++host_workshop_collection PASTECOLLECTIONIDHERE
+and:
++authkey PASTEAUTHKEYHERE
 
-+host_workshop_collection COLLECTIONID
-(replace COLLECTIONID with the collection ID for the collection you'd like to rotate.)
+(replace PASTECOLLECTIONID with the collection ID for the collection you'd like to rotate.)
+(replace PASTEAUTHKEYHERE with the auth key from here: http://steamcommunity.com/dev/apikey) (this is different from your GSLT token)
 (Collection ID can be found in the link for the collection: https://steamcommunity.com/sharedfiles/filedetails/?id=COLLECTIONIDHERE)
+(If you are using WindowsGSM, you can put that +host_workshop_collection and +authkey commands by going to the WindowsGSM app, clicking the server, then clicking the "edit config" button. You will add the commands in the "Server Start Param" box.)
+
+Players can vote between different workshop maps in-game by going to the pause menu -> call vote -> vote map. Server will automatically load into the first map of the collection on startup.
 
 
