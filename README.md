@@ -102,7 +102,7 @@ If you have a group of workshop maps that you would like to rotate on the server
 
 and:
 
-+authkey PASTEAUTHKEYHERE
+-authkey PASTEAUTHKEYHERE
 
 (replace PASTECOLLECTIONID with the collection ID for the collection you'd like to rotate.)
 
