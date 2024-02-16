@@ -6,9 +6,9 @@ Putting these files on your server will overwrite gamemode configs, which can do
 If you are using this, I recommend following the instructions and doing this on a fresh server ONLY, and understand that this server will ONLY be used for the AWP Arena gamemode.
 
 
-#Installation
+# Installation
 
-#Creating a new server (for beginners)
+# Creating a new server (for beginners)
 First, We are going to make a fresh install of Counter Strike 2 Dedicated Server. If you know how to do so, go ahead and do it now.
 
 If you are a beginner who does not know how to make a CS2 server, no worries. I'm going to show you a super easy way to create and manage a CS2 server (on windows). If you are on linux, please find an installation tutorial elsewhere.
