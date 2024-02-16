@@ -54,6 +54,8 @@ Note: (If the installation fails, go ahead and close WindowsGSM and go to the Wi
 
 11. Once the server is installed, click start and let it start. after a minute, close down the server by clicking the x button on the terminal window that popped up (will have the CS2 icon in windows taskbar)
 
+Note: Now that the server is installed with windowsGSM, you can automate server backups and also server updates using the toggle switches in the application!
+
 
 # How to install the AWP Arena Gamemode
 
