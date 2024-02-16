@@ -96,7 +96,7 @@ Please specify your preferred RCON Password, Hostname, and please paste your Gam
 
 # How to host a workshop map group
 
-If you have a group of workshop maps that you would like to rotate on the server, go ahead and add the following line to your start.bat file, or whatever the executable is for you that launches the server and specifies the start parameters:
+If you have a group of workshop maps that you would like to rotate on the server, go ahead and add the following two commands to your start parameters:
 
 +host_workshop_collection PASTECOLLECTIONIDHERE
 
