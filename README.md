@@ -116,3 +116,5 @@ Players can vote between different workshop maps in-game by going to the pause m
 
 
 ### If you have a problem with your server once you import the RAR file, or if typing "meta" in console does not work, please go ahead and update metamod to the latest dev build from here(https://www.sourcemm.net/downloads.php?branch=dev), and update Counterstrikesharp to the latest release from here(https://github.com/roflmuffin/CounterStrikeSharp/releases) BEFORE you bring up an issue.
+
+If this tutorial helped you at all, please star the repo :) It took a good amount of time to set this up and write out this whole tutorial. Thank you!
