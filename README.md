@@ -1,11 +1,13 @@
 # Counter Strike 2 Dedicated Server - Awp Arena Gamemode
 This is a drop-in AWP Arena Gamemode setup for Counter Strike 2 Dedicated Servers
 
-WARNING: ONLY DO THIS ON A SERVER USED SPECIFICALLY FOR AWP ARENA ONLY!
-Putting these files on an existing server will overwrite gamemode configs, which can do unwanted things if you host multiple gamemodes on one server.
+### WARNING: ONLY DO THIS ON A SERVER USED SPECIFICALLY FOR AWP ARENA ONLY!
+
+###Putting these files on an existing server will overwrite gamemode configs, which can do unwanted things if you host multiple gamemodes on one server!
+
 If you are using this, I recommend following the instructions and doing this on a fresh server ONLY, and understand that this server will ONLY be used for the AWP Arena gamemode.
 
-What this will do:
+# What this will do:
 
 -Restrict all weapons except for Awp and Knife.
 
@@ -22,7 +24,7 @@ What this will do:
 
 # Installation
 
-# Creating a new server (for beginners) (skip over this if you know how to make a CS2 Server)
+## Creating a new server (for beginners) (skip over this if you know how to make a CS2 Server)
 
 First, We are going to make a fresh install of Counter Strike 2 Dedicated Server. If you know how to do so, go ahead and do it now.
 
