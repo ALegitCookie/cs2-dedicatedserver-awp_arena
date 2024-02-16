@@ -115,3 +115,4 @@ and:
 Players can vote between different workshop maps in-game by going to the pause menu -> call vote -> vote map. Server will automatically load into the first map of the collection on startup.
 
 
+### If you have a problem with your server once you import the RAR file, or if typing "meta" in console does not work, please go ahead and update metamod to the latest dev build from here(https://www.sourcemm.net/downloads.php?branch=dev), and update Counterstrikesharp to the latest release from here(https://github.com/roflmuffin/CounterStrikeSharp/releases)
