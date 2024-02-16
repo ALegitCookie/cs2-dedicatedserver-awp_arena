@@ -79,8 +79,11 @@ and:
 +authkey PASTEAUTHKEYHERE
 
 (replace PASTECOLLECTIONID with the collection ID for the collection you'd like to rotate.)
+
 (replace PASTEAUTHKEYHERE with the auth key from here: http://steamcommunity.com/dev/apikey) (this is different from your GSLT token)
+
 (Collection ID can be found in the link for the collection: https://steamcommunity.com/sharedfiles/filedetails/?id=COLLECTIONIDHERE)
+
 (If you are using WindowsGSM, you can put that +host_workshop_collection and +authkey commands by going to the WindowsGSM app, clicking the server, then clicking the "edit config" button. You will add the commands in the "Server Start Param" box.)
 
 Players can vote between different workshop maps in-game by going to the pause menu -> call vote -> vote map. Server will automatically load into the first map of the collection on startup.
