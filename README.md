@@ -63,9 +63,11 @@ Note: (If the installation fails, go ahead and close WindowsGSM and go to the Wi
 
 15. Enjoy! That zip file that you just put into your server has changed the way the gamemodes work, so there will be no buy menu, and has restricted all weapons except AWP and Knife.
 
-# Please configure server.cfg (
+# Please configure server.cfg
 Please open up Game->Csgo->Cfg->server.cfg with a text editor
+
 <img width="350" alt="Screenshot 2024-02-15 at 11 26 32 PM" src="https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/assets/39338269/4f761baf-b937-463d-9057-ca984f777440">
+
 Please specify your preferred RCON Password, Hostname, and please paste your Game Server Login Token from https://steamcommunity.com/dev/managegameservers
 
 
