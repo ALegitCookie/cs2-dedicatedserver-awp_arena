@@ -26,6 +26,8 @@ This is a drop-in AWP Arena Gamemode setup for Counter Strike 2 Dedicated Server
 
 ## Creating a new server (for beginners) (skip over this if you know how to make a CS2 Server)
 
+### You can reference my Youtube tutorial for installing a CS2 Server on Windows here: https://youtu.be/NV6waF7lRqo?si=f4-6tlxJZVl_Ufyd
+
 First, We are going to make a fresh install of Counter Strike 2 Dedicated Server. If you know how to do so, go ahead and do it now.
 
 If you are a beginner who does not know how to make a CS2 server, no worries. I'm going to show you a super easy way to create and manage a CS2 server (on windows). If you are on linux, please find an installation tutorial elsewhere.
