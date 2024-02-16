@@ -39,11 +39,28 @@ This will allow us to install the CS2 server on WindowsGSM
 
 ![4](https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/assets/39338269/321eb62c-98e5-48bb-9518-5916308e1023)
 
-Go ahead and press the install button. After a minute or so, you should see the installation progress in the Install Log Box. It is now installing the CS2 server. Please be patient, depending on your compouter setup and wifi speed, this could take upwards of 30 minutes.
+Go ahead and press the install button. After a minute or so, you should see the installation progress in the Install Log Box. It is now installing the CS2 server. Please be patient, depending on your computer setup and wifi speed, this could take upwards of 30 minutes.
 
 ![5](https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/assets/39338269/aa918408-75b9-4465-893b-2c15caad6c35)
 
 Note: (If the installation fails, go ahead and close WindowsGSM and go to the Windows GSM folder -> Servers, and delete the folder named "1". This will delete the failed server install and now you can attempt the installation again.)
 
+11. Once the server is installed, click start and let it start. after a minute, close down the server by clicking the x button on the terminal window that popped up (will have the CS2 icon in windows taskbar)
+
+
+# How to install the AWP Arena Gamemode
+
+12. Download the .ZIP from this repo (releases link here)
+13. Extract this zip file into your server (If you followed the WindowsGSM Install tutorial above, the directory will be WindowsGSM -> Servers -> 1 -> serverfiles) Extract it so that the "csgo" folder from the zip, merges with the "csgo" folder of your server. (If prompted to overwrite any files, click YES TO ALL)
+
+14. Enjoy! That zip file that you just put into your server has changed the way the gamemodes work sp there will be no buy menu, and has restricted all weapons except AWP and Knife.
+
+# How to host a workshop map group
+
+If you have a group of workshop maps that you would like to rotate on the server, go ahead and add the following line to your start.bat file, or whatever the executable is for you that launches the server and specifies the start parameters.
+
++host_workshop_collection COLLECTIONID
+(replace COLLECTIONID with the collection ID for the collection you'd like to rotate.)
+(Collection ID can be found in the link for the collection: https://steamcommunity.com/sharedfiles/filedetails/?id=COLLECTIONIDHERE)
 
 
