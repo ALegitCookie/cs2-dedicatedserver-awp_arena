@@ -5,7 +5,7 @@ This is a drop-in AWP Arena Gamemode setup for Counter Strike 2 Dedicated Server
 
 ### Putting these files on an existing server will overwrite gamemode configs, which can do unwanted things if you host multiple gamemodes on one server!
 
-If you are using this, I recommend following the instructions and doing this on a fresh server ONLY, and understand that this server will ONLY be used for the AWP Arena gamemode.
+If you are using this, I recommend following the instructions and doing this on a fresh server ONLY, and understand that this server will ONLY be used for the AWP Arena gamemode, and nothing else.
 
 # What this will do:
 
