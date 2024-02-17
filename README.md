@@ -76,6 +76,7 @@ Note: Now that the server is installed with windowsGSM, you can automate server 
 
 
 # How to install the AWP Arena Gamemode
+### You can reference my Youtube tutorial for installing the AWP Arena gamemode, as well as setting up the server and workshop maps here: https://www.youtube.com/watch?v=XT1Oze84Cg0
 
 1. Download the .RAR from this repo (https://github.com/ALegitCookie/cs2-dedicatedserver-awp_arena-gamemode/archive/refs/heads/main.zip)
 
