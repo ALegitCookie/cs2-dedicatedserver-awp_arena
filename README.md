@@ -21,6 +21,7 @@ This is a drop-in AWP Arena Gamemode setup for Counter Strike 2 Dedicated Server
 
 -Make the timer run for 60 minutes before switching to a new map (meant to be used with host_workshop_collection)
 
+### see this server setup in action! open CS2 and connect to us1.synserv.net:27017
 
 # Installation
 
